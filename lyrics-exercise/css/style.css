@@ -1,0 +1,11 @@
+.title{
+    font-family: Verdana, Times, serif;
+    font-weight: bolder;
+    color:rgba(180,151,40,255);
+}
+
+.lyrics{
+    font-family: Tahoma, Times, sans-serif;
+    font-weight: 600;
+    color: rgb(238, 232, 232);
+}
