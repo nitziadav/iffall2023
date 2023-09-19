@@ -1,0 +1,95 @@
+html{
+    background-color: rgb(211, 228, 238);
+    margin: 5%;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(27, 37, 88,100);
+    font-size: 40pt;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 25pt;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 10pt;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20pt;
+    color: rgba(27, 37, 88,100);
+}
+
+section.FontWeight p.Normal {
+    font-weight: normal;
+}
+
+section.FontWeight p.Bold {
+    font-weight: bold;
+    color: brown;
+}
+
+p.styledFontLIGHTER{
+    font-weight:lighter;
+}
+
+p.styledFontBOLD{
+    font-weight: bold;
+}
+
+p.styledFontBOLDER{
+    font-weight: bolder;
+}
+
+
+p.fontstyleNORMAL{
+    font-style:normal;
+}
+
+p.fontstyleITALIC{
+    font-style:italic;
+}
+
+p.letterspaceNORMAL{
+    letter-spacing: normal;
+}
+
+p.letterspace5{
+    letter-spacing: 5px;
+}
+
+p.leterspace1{
+    letter-spacing: 10px;
+}
+
+p.texttransformUPPERCASE{
+    text-transform: uppercase;
+}
+
+
+p.texttransformCAPITALIZE{
+    text-transform: capitalize;
+}
+
+p.texttransformLOWER{
+    text-transform: lowercase;
+}
+
+p.textdecorationOVER{
+    text-decoration:overline;
+}
+
+p.textdecorationUNDER{
+    text-decoration:underline;
+}
+
+p.textdecorationLINETHROUGH{
+    text-decoration: line-through;
+}
