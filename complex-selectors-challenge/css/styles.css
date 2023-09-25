@@ -14,7 +14,6 @@ p{
 .shows h1{
     font-size: 2.5rem;
 }
-/* why would the above not be h1.shows like i get that i am looking for it */
 
 section h1{
     text-transform: uppercase;
@@ -56,6 +55,7 @@ nav li.selected{
 
 
 li#game-of-thrones h1::after{
+    display: inline-block ;
     content: "* Final Season";
     font-size: .7rem;
     color: #999;
@@ -64,9 +64,18 @@ li#game-of-thrones h1::after{
 /* ^how to insert line break within a pseudo element */
 
 
-.seasons ul li:last-of-type::after{
+#game-of-thrones .seasons li:last-of-type::after{
     content: "* ";
 }
+
+
+
+/* .seasons ul li:last-of-type::after{
+    content: "* "} */
+
+ /* li:not(#unbreakable-kimmy-schmidt) li:last-of-type{
+    color: rgb(226, 43, 43); */   
+
 /* ^how to isolate just game of thrones ones .seasons ul li:last-of-type(not.unbreakable-kimmy-schmidt) did not work */
 
 
